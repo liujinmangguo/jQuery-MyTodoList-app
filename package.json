@@ -1,0 +1,23 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "用jQuery实现的MyTodoList清单",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liujinmangguo/jQuery-MyTodoList-app.git"
+  },
+  "author": "liujinmangguo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liujinmangguo/jQuery-MyTodoList-app/issues"
+  },
+  "homepage": "https://github.com/liujinmangguo/jQuery-MyTodoList-app#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "store": "^2.0.12"
+  }
+}

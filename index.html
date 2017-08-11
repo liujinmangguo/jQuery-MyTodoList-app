@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>My Todo List App</title>
+	<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+	<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="title">My Todo List</h1>
+
+		<div class="task-add" >
+			<input type="text" placeholder="e.g.buy something" autofocus autocomplete="off">
+			<button type="submit">add</button>
+		</div>
+
+		<div class="task-list">
+			
+			<!-- <div class="task-item">
+				<span><input type="checkbox"></span>
+				<span class="task-content">1</span>
+				<span class="action">
+					<span class="del">删除</span>
+					<span class="detail">详情</span>
+				</span>
+				
+			</div> -->
+		</div>	
+			
+
+		<div class="mask"></div>
+
+		<div class="task-detail">
+			<div class="content">lorem</div>
+			<textarea class="desc"></textarea>
+			<div class="remind">
+				<input type="date">
+				<button type="submit">submit</button>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/store/dist/store.legacy.min.js"></script>
+	<script src="js/base.js"></script>
+</body>
+</html>
